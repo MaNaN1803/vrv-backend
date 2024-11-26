@@ -8,8 +8,6 @@ dotenv.config();
 const app = express();
 connectDB();
 
-const cors = require("cors");
-
 const allowedOrigins = [
   "https://vrv-frontend.vercel.app",
   "http://localhost:3000",
